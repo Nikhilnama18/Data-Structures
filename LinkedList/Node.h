@@ -11,7 +11,7 @@ public:
 };
 
 template <typename T>
-Node<T>::Node() : val(), next(nullptr) {}
+Node<T>::Node() : val(0), next(nullptr) {}
 template <typename T>
 Node<T>::Node(T data) : val(data), next(nullptr) {}
 #endif
