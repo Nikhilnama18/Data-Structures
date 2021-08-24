@@ -58,7 +58,7 @@ void Stack<T>::pop()
 
 // Return Last Inserted Node's Value
 template <typename T>
-int Stack<T>::top()
+T Stack<T>::top()
 {
     try
     {

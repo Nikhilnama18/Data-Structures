@@ -14,7 +14,7 @@ public:
     Stack();
     void push(T data);
     void pop();
-    int top();
+    T top();
     int size();
     bool isEmpty();
     void clear();
